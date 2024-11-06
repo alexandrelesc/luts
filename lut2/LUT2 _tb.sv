@@ -25,10 +25,9 @@ module LUT2_tb;
     initial
     begin
       $display("                Tempo   Entradas LUT    Saídas");
-      $display("                         IO    I1       O");
+      $display("                         I1    I0       O");
       $display("                ====   ============  =======");
-      $monitor($time,"     %b      %b       %b", I0, I1, O);
+      $monitor($time,"     %b      %b       %b", I1, I0, O);
     end
   
 endmodule
-

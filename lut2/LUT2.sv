@@ -24,7 +24,7 @@
 
 module LUT2 (O, I0, I1);
 
-    parameter INIT = 4'h08;
+    parameter INIT = 4'h0;
 
     input logic I0, I1;
 

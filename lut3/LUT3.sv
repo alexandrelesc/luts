@@ -23,7 +23,7 @@
 
 module LUT3 (O, I0, I1, I2);
 
-    parameter INIT = 8'h80;
+    parameter INIT = 8'h00;
 
     input I0, I1, I2;
 

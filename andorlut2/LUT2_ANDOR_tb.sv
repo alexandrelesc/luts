@@ -1,3 +1,4 @@
+`timescale  1 ps / 1 ps
 module LUT2_ANDOR_tb;
   logic O, O1, I0, I1, I2;
   

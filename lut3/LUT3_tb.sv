@@ -1,3 +1,4 @@
+`timescale  1 ps / 1 ps
 module LUT3_tb;
   logic O, I0, I1, I2;
   
